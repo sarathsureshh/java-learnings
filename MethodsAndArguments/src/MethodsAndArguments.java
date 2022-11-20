@@ -3,6 +3,9 @@ public class MethodsAndArguments {
 
         System.out.println("Sum of three numbers is: " + sumOfTwoNumbers(10, 67, 99));
         System.out.println("The third angle is: " + calculateThirdAngle(20, 89));
+        Values.number = 1;
+        Values.name = "Sarath";
+        System.out.println(Values.name + " " + Values.number);
 
     }
 
@@ -16,3 +19,5 @@ public class MethodsAndArguments {
         return angle3;
     }
 }
+
+
