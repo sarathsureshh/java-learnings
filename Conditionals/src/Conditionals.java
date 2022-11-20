@@ -3,19 +3,16 @@ import java.util.*;
 public class Conditionals {
     public static void main(String[] args) {
 
-//        ifTriangle(checkIfTriangle());
-//        multiplicationTable();
-//        evenNumbers();
-//        print1to10();
-//        print10to1();
+        ifTriangle(checkIfTriangle());
+        multiplicationTable();
+        evenNumbers();
+        print1to10();
+        print10to1();
         squares();
         squaresOfOdd();
         squaresOfEven();
 
     }
-
-
-
     public static void ifTriangle(boolean isTrangle) {
         if (isTrangle) {
             System.out.println("Yesssss it is a TRIANGLE");
