@@ -16,6 +16,18 @@ public class MotorBike {
         System.out.println("The speed is "+this.speed);
     }
 
+    void increaseSpeed(int number)
+    {
+        this.speed+=number;
+        System.out.println("Speed increased: "+ this.speed);
+    }
+
+    void decreaseSpeed(int number)
+    {
+        this.speed-=number;
+        System.out.println("Speed decreased: "+ this.speed);
+    }
+
     void stop(int speed)
     {
         this.speed = speed;

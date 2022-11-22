@@ -11,7 +11,9 @@ public class MotorBikeRunner {
     {
         MotorBike hymalayan = new MotorBike();
         hymalayan.start("Himalayan");
-        hymalayan.setSpeed(40);
+        hymalayan.setSpeed(150);
+        hymalayan.increaseSpeed(20);
+        hymalayan.decreaseSpeed(150);
         hymalayan.stop(0);
     }
 
@@ -19,7 +21,9 @@ public class MotorBikeRunner {
     {
         MotorBike xpulse = new MotorBike();
         xpulse.start("Xpulse");
-        xpulse.setSpeed(20);
+        xpulse.setSpeed(140);
+        xpulse.increaseSpeed(20);
+        xpulse.decreaseSpeed(150);
         xpulse.stop(0);
     }
 }
